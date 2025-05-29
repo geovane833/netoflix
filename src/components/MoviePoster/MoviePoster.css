@@ -1,0 +1,9 @@
+.poster {
+    flex: 1;
+    min-width: 250px;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 10px;
+}

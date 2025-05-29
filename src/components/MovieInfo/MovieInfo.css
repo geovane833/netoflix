@@ -1,0 +1,22 @@
+.details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.details p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .details h1 {
+        font-size: 2.2rem;
+    }
+}

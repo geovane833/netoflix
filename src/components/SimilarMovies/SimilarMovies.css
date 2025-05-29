@@ -1,0 +1,56 @@
+.similar-movies {
+    margin-top: 50px;
+    color: white;
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.similar-movies h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.similar-list {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.similar-movie-card {
+    min-width: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.similar-movie-card img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.similar-movie-card p {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+.similar-movie-card:hover {
+    transform: scale(1.05);
+}
+
+/* Scrollbar estilizado */
+.similar-list::-webkit-scrollbar {
+    height: 6px;
+}
+
+.similar-list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}

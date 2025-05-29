@@ -1,0 +1,12 @@
+.menu-btn{
+    font-size: 20px;
+    border: none;
+    background-color: #01091a;
+    color: white;
+    padding: 0px 10px;
+}
+
+.menu-btn:hover{
+    cursor: pointer;
+    background-color: #1a1f2a;
+}

@@ -1,0 +1,8 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+/* crie um arquivo chamado
+.env
+dentro coloca
+VITE_TOKEN_TMDB=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MGUzMDYzOTNjY2Y3M2JkOTJiZmUwMzQ0NzNjYjI2MiIsIm5iZiI6MTc0Nzc0NjkxNy4xMDMwMDAyLCJzdWIiOiI2ODJjODA2NWI2MDBiNWJlNDU4YzBjNzMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Yi5Ahc0_Lgf86LaXUlKhrrGjNGF7Pojy4GIg1tysbrs */
